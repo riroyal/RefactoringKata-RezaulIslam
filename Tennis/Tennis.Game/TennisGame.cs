@@ -16,9 +16,13 @@
         public void WonPoint(string playerName)
         {
             if (playerName == _player1Name)
+            {
                 _player1Score++;
+            }
             else if (playerName == _player2Name)
+            {
                 _player2Score++;
+            }
         }
 
         public string GetScore()
